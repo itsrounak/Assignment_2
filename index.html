@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  
+  <!-- Import vega-embed -->
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+<body style="background-color:papayawhip">
+
+<section class="w3-container w3-center w3-content w3-round-large" style="background-color:moccasin">
+  <h1 style="font-family: 'Nunito', sans-serif;;text-align:center;font-size:60px;font-weight: bold">GLOBAL ECONOMY ANALYSIS</h1>
+  <p style="text-align:center">By Hamza Umar </p>
+</section>
+  
+<section class="w3-container w3-center w3-content" style="background-color:papayawhip">
+  <p style="font-family: 'Nunito', sans-serif;text-align:left">
+    <b>Economic indicators</b> are statistics that are used to obtain a more precise picture of the state of the economy today, as their name suggests. Few pertinent examples include the <b>Gross Domestic Product (GDP)</b>, the <b>Unemployment Rate</b>, <b>Trade, and Globalisation</b>. When anticipating how the economy will develop over the coming years, economic data and their interpretation by reliable sources are crucial.
+  </p>
+  <p style="font-family: 'Nunito', sans-serif;text-align:left">
+    With the help of these forecasts, both consumers and businesses will be able to make informed choices about their long-term financial plans, including where and how much money to invest, whether to hire more people or cut back, whether to buy real estate, etc.
+</p>
+</section>
+
+ 
+<section class="w3-container w3-center w3-content w3-round-large" style="background-color:moccasin">
+  <h1 style="font-family: 'Nunito', sans-serif;text-align:center"><i>Famous Indicators of Economic Growth</i></h1>
+</section>
+  
+<section class="w3-container w3-center w3-content" style="background-color:papayawhip">
+  <p style="font-family: 'Nunito', sans-serif;text-align:left"> 
+    The <b>Gross Domestic Product (GDP)</b> is a common statistic used by countries around the world to assess how well they are doing economically. GDP is a gauge of how much money has been made through time from the production of products and services. The GDP of a nation is widely used to gauge economic health and determine whether the economy is growing or experiencing a recession.
+  </p>
+  <p style="font-family: 'Nunito', sans-serif;text-align:left"> 
+    The COVID-19 virus grew alarmingly in 2020, sickening millions of people and halting economic activity as nations implemented tight travel restrictions to stop the infection's spread. 
+    The world's largest economic shock in decades has already occurred, and the economic damage is evident as the health and human toll mounts. 
+    The area chart shows the change in GDP per capita over the previous ten years, while the map below shows the GDP per capita in 2020. Virtually every nation's GDP rate has been impacted by the virus, and a 5.2 percent decline in the global GDP rate is anticipated in 2020. It is considered as the worst global recession in decades, despite unprecedented efforts by governments to counteract the downturn through fiscal and monetary policy support.
+  </p>
+</section>
+  
+<section class="w3-container w3-center w3-content" style="background-color:papayawhip;align-items: center">
+  <div class="w3-left" id="viz1"></div>
+</section>
+  
+<section class="w3-container w3-center w3-content" style="background-color:papayawhip">
+    <p style="font-family: 'Nunito', sans-serif;text-align:left"> 
+    <b>Unemployment</b> refers to those who are employable and actively looking for work but are unable to find work. It is a key macroeconomic metric. 
+    How well our economy is going is reflected in the unemployment rate. Unemployment shows that we are not effectively using our labour, which prevents us from producing as many goods and services as we could. Additionally, unemployment has a human cost.
+    No matter how well things are going for the average citizen, individuals who lack employment and consequently income will be in a worse situation.
+    </p>
+</section>
+
+<section class="w3-container w3-center w3-content w3-round-large" style="background-color:moccasin">
+  <h1 style="font-family: 'Nunito', sans-serif;text-align:center"><i>Countries with the Highest Unemployment Rate</i></h1>
+</section>
+
+<section class="w3-container w3-center w3-content" style="background-color:papayawhip">
+    <p style="font-family: 'Nunito', sans-serif;text-align:left"> 
+    Countries like <strong style='color: #b59762'>South Africa</strong>, <strong style='color: #ff7f00'>Macedonia</strong>, <strong style='color: #a6cee3'>Bosnia and Herzegovina</strong>, <strong style='color: #ef3b2c'>Palestine</strong>, and <strong style='color: #88ef13'>Lesotho</strong> experience high unemployment rates due to several factors such as lack of education and training, lack of capital, lack of proper skill, poverty deficiency of the availability of essential consumer goods, etc.
+    </p>
+</section>
+
+<section class="w3-container w3-center w3-content regular_section" style="background-color:papayawhip">
+  <div class="w3-left" id="viz2"></div>
+</section>
+  
+<section class="w3-container w3-center w3-content" style="background-color:papayawhip">
+  <p style="font-size:13px;font-style:italic;text-align:left">Note: Countries are displayed in an abbreviated manner.<br>
+    <strong style='color: #a6cee3'>BiH</strong> = Bosnia and Herzegovina, <strong style='color: #de77ae'>SVG</strong> = Saint Vincent and the Grenadines.
+</p>
+</section> 
+  
+<section class="w3-container w3-center w3-content w3-round-large" style="background-color:moccasin">
+  <h1 style="font-family: 'Nunito', sans-serif;text-align:center"><i>Change in real GDP per capita vs Change in trade as share of GDP (Annual)</i></h1>
+</section>
+
+<section class="w3-container w3-center w3-content" style="background-color:papayawhip">
+  <p style="font-family: 'Nunito', sans-serif;text-align:left">
+    <b>Trade openness (as a share of GDP)</b> Trade openness (as a share of GDP) refers to a country's economic orientation in the context of international trade. The actual size of an economy's registered imports and exports is used to determine its degree of openness. 
+    Trading openness is a measure of how open or closed a country's trade relations are with the rest of the world. It is viewed as a means of boosting economic development in a developing country.</p>
+  <p style="font-family: 'Nunito', sans-serif;text-align:left">
+    Growth, job creation, and poverty reduction all depend on openness. Trade increases productivity, expands domestic business opportunities, and fosters innovation through market competition. 
+    Consequently, the GDP and other economic metrics will be impacted. </p>
+</section>
+  
+<section class="w3-container w3-center w3-content regular_section" style="background-color:papayawhip">
+  <div class="w3-left" id="viz3"></div>
+</section>
+  
+<section class="w3-container w3-center w3-content" style="background-color:papayawhip">
+  <p style="font-family: 'Nunito', sans-serif;text-align:left">
+    The bubble plot demonstrates that trade openness has a negative impact on growth in nations with low financial development, like <strong style='color: #377eb8'>Democratic Republic of Congo</strong>, while having little to no impact in countries with high financial development, like <strong style='color: #006d2c'>United States</strong>, <strong style='color: #de2d26'>Singapore</strong>, and other countries. 
+</p>
+<p style="font-family: 'Nunito', sans-serif;text-align:left">
+    <strong style='color: #de2d26'>Malta's</strong> economy is heavily industrialised and services based, employing about three fifths of their labour force. Similarly, tourism and trade are their main services too as they mainly export semi conductors along with other goods. 
+    Moreover, countries such as <strong style='color: #ff7f00'>Singapore</strong> and <strong style='color: #ff7f00'>Hong Kong</strong> have high trade openness rates and GDP per capita High trade openness rates and GDP per capita are seen in nations like Singapore and Hong Kong because of their developed technological infrastructure, access to a trained labour force, welcoming immigration laws, and the ease with which new businesses may be founded. 
+    In addition, <strong style='color: #ff7f00'>Qatar</strong> is one of the world's richest places due to the tax haven status, and large scale natural gas deposits that exported all over the world.
+</p>
+</section> 
+
+<section class="w3-container w3-center w3-content w3-round-large" style="background-color:moccasin">
+  <h1 style="font-family: 'Nunito', sans-serif;text-align:center"><i>Other Indicators</i></h1>
+</section>
+
+   
+<section class="w3-container w3-center w3-content" style="background-color:papayawhip">
+    <p style="font-family: 'Nunito', sans-serif;text-align:left">
+        <b>Life satisfaction</b> is often reported using a 'Cantril Ladder' which measures the scale of happiness from 0 to 10. Within countries, there is a strong correlation between income and happiness at specific moments in time. It has been shown that populations in wealthy nations report higher levels of average life satisfaction, and the opposite is also true.</p>
+        
+</p>
+    <p style="font-family: 'Nunito', sans-serif;text-align:left"> 
+        <b>Urbanisation</b> and economic growth are inextricably intertwined, yet this has both beneficial and harmful effects. Economic development typically entails the conversion of agricultural property to urban purposes, such as industrial, residential, and commercial; this is a shift from an agrarian-based economy to one that is more urban in nature and centred on services and industry.</p>
+    <p style="font-family: 'Nunito', sans-serif;text-align:left">
+        The <b>Child Mortality Rate</b>, also known as the under-five mortality rate, is the likelihood of dying between birth and the age of five, expressed per 1,000 live births. Recessions are thought to negatively affect mother and infant outcomes, particularly in the early stages of a nation's growth, but the effects vary widely across different systems.
+        The creation and implementation of measures that shield disadvantaged populations from the effects of changing national income presents a challenge to today's policy makers.</p>
+</section>
+<br>
+<section class="w3-container w3-center w3-content regular_section" style="background-color:papayawhip">
+    <div class="w3-left" id="viz4"></div>
+</section>
+
+<section class="w3-container w3-center w3-content" style="background-color:papayawhip">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+
+<footer style="background-color:papayawhip;height:100px"> </footer>
+<script type="text/javascript">
+
+  var spec1 = "https://raw.githubusercontent.com/hamzaumar994/Assignment_2/main/map_combined.vg.json";
+  vegaEmbed("#viz1", spec1, { "actions": false }).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+ 
+  var spec2 = "https://raw.githubusercontent.com/hamzaumar994/Assignment_2/main/rank_chart.vg.json";
+  vegaEmbed("#viz2", spec2, { "actions": false }).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec3 = "https://raw.githubusercontent.com/hamzaumar994/Assignment_2/main/bubble_plot.vg.json";
+  vegaEmbed("#viz3", spec3, { "actions": false }).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec4 = "https://raw.githubusercontent.com/hamzaumar994/Assignment_2/main/line_charts.vg.json";
+  vegaEmbed("#viz4", spec4, { "actions": false }).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+</script>
+</body>
+</html>
